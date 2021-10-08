@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+
+html, body{
+    padding: 0;
+    margin:0;
+    font-family:'Ubuntu', sans-serif;
+    box-sizing:border-box;
+    /* overflow-x:hidden; */
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+/* html, body{
+    min-height: 100% !important; 
+}  */
+
+/* Header */
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 117px;
+    left: 0px;
+    top: 0px;    
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header .bart{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 164px;
+    height: 64px;
+    left: 162px;
+    top: 33px;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 64px;
+
+    color: #FFFFFF;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+
+
+header ul li .bar-item{
+    position: absolute;
+    width: 80px;
+    height: 23px;
+    left: 1028px;
+    top: 47px;
+    
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+
+    color: #FDFDFD;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* MAIN */
+
+main{
+    margin-bottom:207px;
+    margin-top: 117px;
+    width:100%;
+}
+
+main .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+}
+
+#row-item{
+    /* position: absolute; */
+    /* height: 381px;
+    width: 380px; */
+    left: 52.15%;
+    right: 21.46%;
+    top: 9.38%;
+    bottom: 72.49%;
+
+    background: #000000;
+    border: 1px solid #000000;
+
+}
+
+
+
+h1{
+    /* position: absolute; */
+    width: 100%;
+    height: 126px;
+    left: 202px;
+    top: 210px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 63px;
+
+    color: #FF4081;
+}
+
+h3{
+    /* position: absolute; */
+    width: 50%;
+    height: 186px;
+    left: 202px;
+    top: 358px;   
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+
+main .row2{
+/* position:sticky; */
+width: 100%;
+height: 1235px;
+left: 0px;
+top: 659px;
+
+
+display: flex;
+
+background: #F7F7F7;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 207px;
+    width: 100%;
+    bottom: 0px;
+    /* top: 0px; */
+    border-radius: 0px;
+
+    background: #419488;
+}
+
+footer .barb{
+    position: absolute;
+    left: 16.81%;
+    right: 69.44%;
+    top: 28.5%;
+    bottom: 43.48%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 76px;
+
+    color: #FFFFFF;
+}
+
+footer ul li .bar-item5 {
+    position: absolute;
+    left: 43.26%;
+    right: 51.81%;
+    top: 25.6%;
+    bottom: 34.3%;
+    display: flex;
+    
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+}
+
+
+
+
+#bar-item3{
+    position: absolute;
+    left: 70.42%;
+    right: 9.51%;
+    top: 24.15%;
+    bottom: 51.21%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bar-item4{
+    position: absolute;
+    left: 70.42%;
+    right: 9.51%;
+    top: 55.07%;
+    bottom: 20.29%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
