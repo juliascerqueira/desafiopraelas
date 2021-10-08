@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
 
-html, body{
+/* html, body{
     padding: 0;
     margin:0;
     font-family:'Ubuntu', sans-serif;
     box-sizing:border-box;
-    /* overflow-x:hidden; */
+    overflow-x:hidden;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
 }
@@ -15,7 +20,7 @@ html, body{
 html{
     position: relative;
     min-height: 100%;
-}
+} */
 /* html, body{
     min-height: 100% !important; 
 }  */
@@ -23,30 +28,37 @@ html{
 /* Header */
 
 header{
-    position: absolute;
-    width: 100%;
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 117px;
-    left: 0px;
-    top: 0px;    
+    /* width: 100%; */
+    /* left: 0px;
+    top: 0px;     */
     background: #2E948A;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
-header .bart{
-    position: absolute;
+.bar-item1{
+    /* position: absolute; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 164px;
+    margin: 82px;
+    /* width: 164px; */
+    /* width:100%; */
     height: 64px;
-    left: 162px;
-    top: 33px;
+    /* left: 162px;
+    top: 33px; */
     
+    /* margin-right: auto; */
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 500;
     font-size: 56px;
     line-height: 64px;
+
 
     color: #FFFFFF;
 }
@@ -54,18 +66,21 @@ header .bart{
 header ul{
     list-style: none;
     display: flex;
+    margin: 82px;
+    flex-wrap: wrap;
 }
 
 
 
-header ul li .bar-item{
-    position: absolute;
+header ul li .bar-item2{
+    /* position: absolute;
     width: 80px;
     height: 23px;
     left: 1028px;
-    top: 47px;
+    top: 47px; */
+    /* padding: 10px; */
     
-
+    padding: 0px 20px;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
@@ -78,6 +93,7 @@ header ul li .bar-item{
 
 a {
     text-decoration: none;
+    cursor:pointer;
 }
 
 /* MAIN */
@@ -100,10 +116,10 @@ main .row{
     /* position: absolute; */
     /* height: 381px;
     width: 380px; */
-    left: 52.15%;
+    /* left: 52.15%;
     right: 21.46%;
     top: 9.38%;
-    bottom: 72.49%;
+    bottom: 72.49%; */
 
     background: #000000;
     border: 1px solid #000000;
@@ -158,6 +174,9 @@ top: 659px;
 
 
 display: flex;
+/* flex: wrap; */
+justify-content:space-around ;
+align-items: center;
 
 background: #F7F7F7;
 }
@@ -173,26 +192,31 @@ background: #F7F7F7;
 
 footer{
     position: absolute;
-    left: 0px;
-    right: 0px;
+    /* left: 0px;
+    right: 0px; */
     height: 207px;
     width: 100%;
-    bottom: 0px;
+    /* bottom: 0px; */
     /* top: 0px; */
-    border-radius: 0px;
+    /* border-radius: 0px; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     background: #419488;
 }
 
-footer .barb{
-    position: absolute;
-    left: 16.81%;
+.bar-item3{
+    /* position: absolute; */
+    /* left: 16.81%;
     right: 69.44%;
     top: 28.5%;
-    bottom: 43.48%;
+    bottom: 43.48%; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 128px;
     
     font-family: Ubuntu;
     font-style: normal;
@@ -203,45 +227,54 @@ footer .barb{
     color: #FFFFFF;
 }
 
-footer ul li .bar-item5 {
-    position: absolute;
-    left: 43.26%;
+footer ul {
+    /* position: absolute; */
+    /* left: 43.26%;
     right: 51.81%;
     top: 25.6%;
-    bottom: 34.3%;
-    display: flex;
-    
+    bottom: 34.3%; */
+    margin-right: 623px;
+    display: inline-block;
+    justify-content:space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    list-style: none;
 
+   
+}
+
+footer li{
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 23px;
-
+    
+    
     color: #FFFFFF;
 }
 
-footer ul{
-    list-style: none;
-    display: flex;
-}
 
 
 
 
-#bar-item3{
+
+#bar-item5{
     position: absolute;
     left: 70.42%;
     right: 9.51%;
     top: 24.15%;
     bottom: 51.21%;
-
-    display: flex;
+    margin: auto:
+    
+    display: inline-block;
     justify-content: space-around;
     align-items: center;
+
+    
 }
 
-#bar-item4{
+#bar-item6{
     position: absolute;
     left: 70.42%;
     right: 9.51%;
@@ -250,6 +283,23 @@ footer ul{
 
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;  
 }
 
+footer button {
+    color: #fff;
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: #419488;
+    box-sizing: border-box;
+    border-radius: 62px;
+    font-size: 20px;
+    width: 20%;
+
+  }
+
+  button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  
