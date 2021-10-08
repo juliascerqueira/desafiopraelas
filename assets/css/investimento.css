@@ -265,11 +265,11 @@ footer li{
     right: 9.51%;
     top: 24.15%;
     bottom: 51.21%;
-    margin: auto:
+    margin: auto;
     
     display: inline-block;
-    justify-content: space-around;
-    align-items: center;
+    justify-content:space-around;
+    align-items:center; 
 
     
 }
