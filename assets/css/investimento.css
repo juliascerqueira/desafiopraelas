@@ -7,9 +7,9 @@
     box-sizing:border-box;
 }
 
-/* html, body{
-    padding: 0;
-    margin:0;
+html, body{
+    /* padding: 0;
+    margin:0; */
     font-family:'Ubuntu', sans-serif;
     box-sizing:border-box;
     overflow-x:hidden;
@@ -20,7 +20,7 @@
 html{
     position: relative;
     min-height: 100%;
-} */
+} 
 /* html, body{
     min-height: 100% !important; 
 }  */
@@ -108,6 +108,11 @@ main .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 202px;
+    margin-left: 202px;
+    margin-bottom: 80px;
+    margin-top: -60px;
+    
 }
 
 
@@ -120,7 +125,7 @@ main .row{
     right: 21.46%;
     top: 9.38%;
     bottom: 72.49%; */
-
+    padding: 25px;
     background: #000000;
     border: 1px solid #000000;
 
@@ -130,35 +135,37 @@ main .row{
 
 h1{
     /* position: absolute; */
-    width: 100%;
+    /* width: 512px;
     height: 126px;
     left: 202px;
-    top: 210px;
-
+    top: 210px; */
+    padding: 15px;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
     line-height: 63px;
 
+
     color: #FF4081;
 }
 
-h3{
+p{
     /* position: absolute; */
-    width: 50%;
+    /* width: 461px;
     height: 186px;
     left: 202px;
-    top: 358px;   
-
+    top: 358px; */
+    padding: 15px;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
-    
     display: flex;
     align-items: center;
+    width: 86%;
+    
 
     color: #000000;
 
@@ -171,16 +178,31 @@ width: 100%;
 height: 1235px;
 left: 0px;
 top: 659px;
-
-
-display: flex;
+display: inline-block;
 /* flex: wrap; */
-justify-content:space-around ;
+justify-content:space-around;
 align-items: center;
+
+
+
+
 
 background: #F7F7F7;
 }
 
+
+.col2{
+    /* float:right; */
+}
+
+h2{
+    padding: 15px;
+    
+}
+
+#about{
+    width: 40%;
+}
 
 
 
