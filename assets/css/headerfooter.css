@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 
 *{
+    margin: 0;
     padding: 0;
-    margin:0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-html, body{    
+html, body{
     font-family:'Ubuntu', sans-serif;
     box-sizing:border-box;
     overflow-x:hidden;
@@ -18,12 +18,7 @@ html, body{
 /* html{
     position: relative;
     min-height: 100%;
-}  */
-/* html, body{
-    min-height: 100% !important; 
-}  */
-
-/* Header */
+} */
 
 header{
     background-color:#419488;
@@ -89,114 +84,28 @@ header .col ul li a:hover{
 }
 
 
-/* MAIN */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main */
 
 main{
     margin-bottom:207px;
     margin-top: 117px;
     width:100%;
 }
-
-main .row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 202px;
-    margin-left: 202px;
-    margin-bottom: 80px;
-    margin-top: -60px;
-    
-}
-
-
-
-#row-item{
-    /* position: absolute; */
-    /* height: 381px;
-    width: 380px; */
-    /* left: 52.15%;
-    right: 21.46%;
-    top: 9.38%;
-    bottom: 72.49%; */
-    padding: 25px;
-    background: #000000;
-    border: 1px solid #000000;
-
-}
-
-
-
-h1{
-    /* position: absolute; */
-    /* width: 512px;
-    height: 126px;
-    left: 202px;
-    top: 210px; */
-    padding: 15px;
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 63px;
-
-
-    color: #FF4081;
-}
-
-p{
-    /* position: absolute; */
-    /* width: 461px;
-    height: 186px;
-    left: 202px;
-    top: 358px; */
-    padding: 15px;
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 23px;
-    display: flex;
-    align-items: center;
-    width: 86%;
-    
-
-    color: #000000;
-
-}
-
-
-main .row2{
-/* position:sticky; */
-width: 100%;
-height: 1235px;
-left: 0px;
-top: 659px;
-display: inline-block;
-/* flex: wrap; */
-justify-content:space-around;
-align-items: center;
-
-
-
-
-
-background: #F7F7F7;
-}
-
-
-.col2{
-    /* float:right; */
-}
-
-h2{
-    padding: 15px;
-    
-}
-
-#about{
-    width: 40%;
-}
-
 
 
 
