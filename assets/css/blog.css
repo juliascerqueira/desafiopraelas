@@ -25,6 +25,7 @@ a{
 }
 
 img{
+  float: right;
   border-style:none;
   vertical-align:right;
   max-width:100%;
