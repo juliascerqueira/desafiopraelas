@@ -159,7 +159,7 @@ main .container1 p{
 
 main .second{
     max-width: 1440px;
-    background-color: #FF4081;
+    background-color: #F7F7F7;;
     height: 1235px;
     /* padding: 75px 0px; */
 
@@ -178,8 +178,11 @@ main  .container3{
     padding: 75px 0px;
     
     height: 411px;
-    background-color: #000000;
+    /* background-color: #000000; */
 }
+
+
+
 
 main  .container4{
     max-width: 1050px;
@@ -187,7 +190,7 @@ main  .container4{
     margin: 0 auto;
     
     
-    background-color: #691f1f;
+    /* background-color: #691f1f; */
 }
 
 main .row2{
@@ -197,19 +200,21 @@ main .row2{
     
 }
 
-/* main .col3{
+main .col3{
     width: 50%;    
     margin-bottom: 40px;   
-} */
+}
 
-/* main .col4{
-    width: 50%;     */
+main .col4{
+    width: 50%;    
+    margin-bottom: 40px;
     
     
     
     /* padding: 0px 80px; */
         
-/* } */
+}
+
 
 
 
@@ -219,7 +224,7 @@ main .second img{
     /* background-color: #be6767; */
     
 }
-/* 
+ 
 main .second h2{
     font-family: Ubuntu;
     font-style: normal;
@@ -227,21 +232,22 @@ main .second h2{
     font-size: 35px;
     line-height: 40px;
     /* margin: 30px; */
-    /* margin-bottom: 60px; */
-    /* color: #FF4081; */
+    margin-bottom: 5px 100px;
+    color: #FF4081;
+
 
     /* padding-bottom: 20px; */
     
-/* 
+
 }
 
 main .content{
-    margin: 20px;
+    margin: 20px 0px;
     
     
     
-} */
-/* main .second p{
+}
+main .second p{
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
@@ -252,10 +258,11 @@ main .content{
     
     
     
+    
     color: #000000;
     width: 95%;
 
-} */
+}
 
 
 
@@ -366,7 +373,9 @@ button:hover{
 
     /* Main */
 
-
+    main .container3{
+        margin-left: 40px;
+    }
 
 
 
@@ -400,15 +409,20 @@ button:hover{
     }
     header .container{
         width: 95%;
+        padding-right: 100px;
+        
+        
         
     }
 
     header .col ul li a{
         padding: 15px;
+           
     }
 
     header ul{
-        width:10%;       
+        width:10%;     
+        padding: 0px 1px;  
     }
    
 
@@ -453,11 +467,42 @@ button:hover{
         line-height: 23px;
         width: 170%;    
     }
+
+    main .col3{
+        width: 100%;
+        background-color: chartreuse;
+        padding: 0px 115px;
+        
+    }
+    main .col3 img{
+        width: 100%;
+    }
     
+    main .col4{
+        width: 100%;
+        
+    }
 
+    main .container3{
+        /* background-color: blue; */
+        margin: auto;
+        height: 600px;
+    }
+    
+    main .container4{
+        /* background-color: rgb(127, 127, 141); */
+       
+        width: 90%;
+    }
+    main .second{
+        height: 1850px;    
+    }
 
+    main .second p{
+        width: 100%;
+    }
 
-
+    
 
     /* Footer */
     footer .col{
@@ -470,6 +515,139 @@ button:hover{
         padding-left: 120px;
     }
     footer button{
+        border-radius: 62px;
+        line-height: 23px;
+        font-size: 20px;
+        height: 51px;
+        width: 230px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 770px){
+
+    /* Header */
+    header{        
+        height: 117px;
+        padding: 20px;        
+    }
+    header .container{
+        width: 100%;
+        padding-right: 25px;
+        
+    }
+
+    header .col ul li a{
+        padding: 0px;
+        margin-right: 20px ;
+        
+    }
+
+    header ul{
+        width: 1%;       
+    }
+   
+
+    /* Main */
+    main .container1{
+        max-width: 929px;       
+        height: 25%;
+    }
+  
+    main .col1{
+        width:30%;
+        
+        /* background-color: black; */
+            
+    }
+    
+    main .col2{
+        width:70%;
+        /* border: 1px solid #000000; */
+        padding: 0px 20px;       
+        /* background-color: black; */
+        
+    }
+    
+    main .first img{
+        width: 80%;        
+        margin-left: 100px;
+        margin-bottom: 5px;
+
+    }
+    main .container1 h1{        
+        font-size: 40px;
+        line-height: 46px;  
+        width: 180%;  
+        /* margin-top: -40px; */
+
+    }
+    
+    main .container1 p{
+        
+        font-size: 20px;
+        line-height: 23px;
+        width: 170%;    
+    }
+
+    main .col3{
+        width: 100%;
+        /* background-color: chartreuse; */
+        padding: 0px 75px;
+
+    }
+    
+
+    main .col4{
+        width: 100%;
+        
+    }
+
+    main .container3{
+        /* background-color: blue; */
+        margin: auto;
+        height: 600px;
+    }
+    
+    main .container4{
+        /* background-color: rgb(127, 127, 141); */
+        
+        width: 90%;
+    }
+    main .second{
+        height: 1850px;    
+    }
+
+    main .second p{
+        width: 100%;
+    }
+
+    
+
+    /* Footer */
+
+    footer{
+        background-color:#419488;
+        height: 50%;
+        padding: 28px;
+    }
+
+    footer .container{
+        padding: 0px 50px;
+    }
+    footer .col{
+        width: 50%;
+        margin: auto;
+        /* padding: 20px; */
+        
+    } 
+
+  
+    
+        
+    footer button{
+        margin-right: auto;
         border-radius: 62px;
         line-height: 23px;
         font-size: 20px;
@@ -561,12 +739,50 @@ button:hover{
         font-size: 19px;  
     }
     
+    main .col3{
+        width: 100%;
+        /* background-color: chartreuse; */
+        padding: 0px 0px;
+        /* padding: 0px 115px; */
 
+    }
+    
+    .second img{
+        width: 100%;
+        
+    }
+
+    main .col4{
+        width: 100%;
+        
+    }
+
+    main .container3{
+        /* background-color: blue; */
+        margin: auto;
+        height: 600px;
+    }
+    
+    main .container4{
+        /* background-color: rgb(127, 127, 141); */
+        
+        width: 90%;
+    }
+    main .second{
+        height: 1900px;    
+        
+    }
+
+    main .second p{
+        width: 100%;
+    }
 
 
     /* Footer */
 
-
+    footer .container{
+        padding: 0px 0px;
+    }
 
 
     footer .col{
