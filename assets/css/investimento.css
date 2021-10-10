@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
 
 *{
     padding: 0;
@@ -92,110 +93,73 @@ header .col ul li a:hover{
 /* MAIN */
 
 main{
-    margin-bottom:207px;
-    margin-top: 117px;
-    width:100%;
+    /* background-color:#2d2ba8; */
+    /* height: 1777px; */
+    padding: 80px;
 }
 
-main .row{
+main .container1{
+    max-width: 929px;
+    margin: auto;
+    background-color: #FFFFFF;
+    height: 381px;
+}
+
+main .row1{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    margin-right: 202px;
-    margin-left: 202px;
-    margin-bottom: 80px;
-    margin-top: -60px;
+}
+
+main .col1{
+    width: 50%;
     
+    /* background-color: black; */
+        
 }
 
-
-
-#row-item{
-    /* position: absolute; */
-    /* height: 381px;
-    width: 380px; */
-    /* left: 52.15%;
-    right: 21.46%;
-    top: 9.38%;
-    bottom: 72.49%; */
-    padding: 25px;
-    background: #000000;
-    border: 1px solid #000000;
-
+main .col2{
+    width: 50%;
+    /* border: 1px solid #000000; */
+    padding: 0px 80px;
+    /* background-color: black; */
+        
 }
 
+main img{
+    /* border: 1px solid #000000; */
+}
 
-
-h1{
-    /* position: absolute; */
-    /* width: 512px;
-    height: 126px;
-    left: 202px;
-    top: 210px; */
-    padding: 15px;
+main .container1 h1{
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
     line-height: 63px;
-
-
+    font-weight: 700;
     color: #FF4081;
+    padding-bottom: 20px;
+    
+
 }
 
-p{
-    /* position: absolute; */
-    /* width: 461px;
-    height: 186px;
-    left: 202px;
-    top: 358px; */
-    padding: 15px;
+main .container1 p{
     font-family: Ubuntu;
-    font-style: normal;
+    font-style:normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
     display: flex;
     align-items: center;
-    width: 86%;
     
-
     color: #000000;
+    width: 98%;
 
 }
 
 
-main .row2{
-/* position:sticky; */
-width: 100%;
-height: 1235px;
-left: 0px;
-top: 659px;
-display: inline-block;
-/* flex: wrap; */
-justify-content:space-around;
-align-items: center;
 
 
-
-
-
-background: #F7F7F7;
-}
-
-
-.col2{
-    /* float:right; */
-}
-
-h2{
-    padding: 15px;
-    
-}
-
-#about{
-    width: 40%;
-}
 
 
 
@@ -355,6 +319,51 @@ button:hover{
    
 
     /* Main */
+    main .container1{
+        max-width: 929px;       
+        height: 25%;
+    }
+  
+    main .col1{
+        width:30%;
+        
+        /* background-color: black; */
+            
+    }
+    
+    main .col2{
+        width:70%;
+        /* border: 1px solid #000000; */
+        padding: 0px 20px;       
+        /* background-color: black; */
+        
+    }
+    
+    main img{
+        width: 80%;        
+        margin-left: 100px;
+        margin-bottom: 5px;
+
+    }
+    main .container1 h1{        
+        font-size: 40px;
+        line-height: 46px;  
+        width: 180%;  
+        /* margin-top: -40px; */
+
+    }
+    
+    main .container1 p{
+        
+        font-size: 20px;
+        line-height: 23px;
+        width: 170%;    
+    }
+    
+
+
+
+
 
     /* Footer */
     footer .col{
@@ -417,7 +426,47 @@ button:hover{
 
     /* Main */
 
+  
+    main .container1{
+        width: 140%;     
+        height: 50%;
+        margin-top: -40px;
+        margin-left: -40px;
+    }
+  
+    main .col1{
+        width:100%;
+        
+        /* background-color: black; */
+            
+    }
+    
+    main .col2{
+        width:100%;
+        /* border: 1px solid #000000; */
+              
+        /* background-color: black; */
+        
+    }
+    
+    main img{
+        width: 100%;
+        margin: auto;        
+        margin-top: 40px;
+    }
+    main .container1 h1{        
+        font-size: 40px;
+        line-height: 46px;  
+         
+        /* margin-top: -40px; */
 
+    }
+    
+    main .container1 p{    
+        width: 100%;  
+        font-size: 19px;  
+    }
+    
 
 
 
@@ -447,6 +496,7 @@ button:hover{
     footer{
         height: 600px;        
     }
+    
     
     
 }
