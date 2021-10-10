@@ -3,12 +3,12 @@
 
 
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin:0;
+    box-sizing:border-box;
 }
 
-html, body{
+html, body{    
     font-family:'Ubuntu', sans-serif;
     box-sizing:border-box;
     overflow-x:hidden;
@@ -19,12 +19,17 @@ html, body{
 /* html{
     position: relative;
     min-height: 100%;
-} */
+}  */
+/* html, body{
+    min-height: 100% !important; 
+}  */
+
+/* Header */
 
 header{
     background-color:#419488;
     height: 117px;
-    padding: 20px;
+    padding: 20px 82px;
     background: #2E948A;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
@@ -198,9 +203,6 @@ button:hover{
 
 
 
-
-
-
 @media only screen and (max-width: 1125px){
 
     /* Header */
@@ -215,10 +217,13 @@ button:hover{
         width:60%;
         padding: 0px 10px;
     }
+    
 
     /* Main */
 
-
+    main .container3{
+        margin-left: 40px;
+    }
 
 
 
@@ -252,19 +257,100 @@ button:hover{
     }
     header .container{
         width: 95%;
+        padding-right: 100px;
+        
+        
         
     }
 
     header .col ul li a{
         padding: 15px;
+           
     }
 
     header ul{
-        width:10%;       
+        width:10%;     
+        padding: 0px 50px;  
     }
    
 
     /* Main */
+    main .container1{
+        max-width: 929px;       
+        height: 25%;
+    }
+  
+    main .col1{
+        width:30%;
+        
+        /* background-color: black; */
+            
+    }
+    
+    main .col2{
+        width:70%;
+        /* border: 1px solid #000000; */
+        padding: 0px 20px;       
+        /* background-color: black; */
+        
+    }
+    
+    main .first img{
+        width: 80%;        
+        margin-left: 100px;
+        margin-bottom: 5px;
+
+    }
+    main .container1 h1{        
+        font-size: 40px;
+        line-height: 46px;  
+        width: 180%;  
+        /* margin-top: -40px; */
+
+    }
+    
+    main .container1 p{
+        
+        font-size: 20px;
+        line-height: 23px;
+        width: 170%;    
+    }
+
+    main .col3{
+        width: 100%;
+        /* background-color: chartreuse; */
+        padding: 0px 115px;
+        
+    }
+    main .col3 img{
+        width: 100%;
+    }
+    
+    main .col4{
+        width: 100%;
+        
+    }
+
+    main .container3{
+        /* background-color: blue; */
+        margin: auto;
+        height: 600px;
+    }
+    
+    main .container4{
+        /* background-color: rgb(127, 127, 141); */
+       
+        width: 90%;
+    }
+    main .second{
+        height: 1850px;    
+    }
+
+    main .second p{
+        width: 100%;
+    }
+
+    
 
     /* Footer */
     footer .col{
@@ -287,6 +373,142 @@ button:hover{
     
 }
 
+@media only screen and (max-width: 780px){
+
+    /* Header */
+    header{        
+        height: 117px;
+        padding: 20px;        
+    }
+    header .container{
+        width: 100%;
+        padding-right: 40px;
+        
+    }
+
+    header .col ul li a{
+        padding: 0px;
+        margin-right: 20px ;
+        
+    }
+
+    header ul{
+        width: 1%;   
+        padding: 0px 7px;    
+    }
+   
+
+    /* Main */
+    main .container1{
+        max-width: 929px;       
+        height: 25%;
+    }
+  
+    main .col1{
+        width:30%;
+        
+        /* background-color: black; */
+            
+    }
+    
+    main .col2{
+        width:70%;
+        /* border: 1px solid #000000; */
+        padding: 0px 20px;       
+        /* background-color: black; */
+        
+    }
+    
+    main .first img{
+        width: 80%;        
+        margin-left: 100px;
+        margin-bottom: 5px;
+
+    }
+    main .container1 h1{        
+        font-size: 40px;
+        line-height: 46px;  
+        width: 180%;  
+        /* margin-top: -40px; */
+
+    }
+    
+    main .container1 p{
+        
+        font-size: 20px;
+        line-height: 23px;
+        width: 170%;    
+    }
+
+    main .col3{
+        width: 100%;
+        /* background-color: chartreuse; */
+        padding: 0px 75px;
+
+    }
+    
+
+    main .col4{
+        width: 100%;
+        
+    }
+
+    main .container3{
+        /* background-color: blue; */
+        margin: auto;
+        height: 600px;
+    }
+    
+    main .container4{
+        /* background-color: rgb(127, 127, 141); */
+        
+        width: 90%;
+    }
+    main .second{
+        height: 1850px;    
+    }
+
+    main .second p{
+        width: 100%;
+    }
+
+    
+
+    /* Footer */
+
+    footer{
+        background-color:#419488;
+        height: 50%;
+        padding: 28px;
+    }
+
+    footer .container{
+        padding: 0px 50px;
+    }
+    footer .col{
+        width: 50%;
+        margin: auto;
+        /* padding: 20px; */
+        
+    } 
+
+    
+
+  
+    
+        
+    footer button{
+        margin-right: auto;
+        border-radius: 62px;
+        line-height: 23px;
+        font-size: 20px;
+        height: 51px;
+        width: 260px;
+    }
+
+    
+}
+
 
 
 
@@ -298,27 +520,38 @@ button:hover{
     
     /* Header */
     header{        
-        height: 220px;
+        height: 150px;
         padding:20px;        
     }
     header .container{
         width: 100%;
-        margin-left: 15%;
+        /* background-color: #FF4081; */
+        height: 100%;
+        /* margin-left: 15%; */
         
     }
 
     header .col{
         width: 100%;
+        padding-left: 70px;
+        
+    }
+
+    header img{
+        width: 95%;
+        padding: 0px 10px;
         
     }
 
     
+    
     header ul{
-        display: inline-block;
+        /* display: inline-block; */
         list-style: none;
         margin: auto;
-        padding: 15px 70px;
-        line-height: 30px;
+        /* padding: 15px 70px; */
+        line-height: 70px;
+        padding-left: 20px;
         
         
         
@@ -327,20 +560,100 @@ button:hover{
 
     /* Main */
 
+  
+    main .container1{
+        width: 140%;     
+        height: 50%;
+        margin-top: -40px;
+        margin-left: -40px;
+    }
+  
+    main .col1{
+        width:100%;
+        
+        /* background-color: black; */
+            
+    }
+    
+    main .col2{
+        width:100%;
+        /* border: 1px solid #000000; */
+              
+        /* background-color: black; */
+        
+    }
+    
+    main .first img{
+        width: 100%;
+        margin: auto;        
+        margin-top: 40px;
+    }
+    main .container1 h1{        
+        font-size: 40px;
+        line-height: 46px;  
+         
+        /* margin-top: -40px; */
 
+    }
+    
+    main .container1 p{    
+        width: 100%;  
+        font-size: 19px;  
+    }
+    
+    main .col3{
+        width: 100%;
+        /* background-color: chartreuse; */
+        padding: 0px 0px;
+        /* padding: 0px 115px; */
 
+    }
+    
+    .second img{
+        width: 100%;
+        
+    }
+
+    main .col4{
+        width: 100%;
+        
+    }
+
+    main .container3{
+        /* background-color: blue; */
+        margin: auto;
+        height: 600px;
+    }
+    
+    main .container4{
+        /* background-color: rgb(127, 127, 141); */
+        
+        width: 90%;
+    }
+    main .second{
+        height: 1900px;    
+        
+    }
+
+    main .second p{
+        width: 100%;
+    }
 
 
     /* Footer */
 
-
+    footer .container{
+        padding: 0px 15px;
+        /* background-color: #FF4081; */
+        height: 350px;
+    }
 
 
     footer .col{
         width: 100%;
         /* padding: 15px 15px; */
         height: 100px;
-        margin-top: 50px;
+        margin: auto;
     } 
 
     footer .row{
@@ -349,15 +662,34 @@ button:hover{
     }
     footer ul{
         /* padding: 20px; */
-        padding-left: 120px;
+        padding-left: 30px;
+        display: flex;
+        /* width: 80%; */
+    }
+    
+        
+            
+            
+            
+            
+        
+    
+
+    footer li{
+        padding: 10px;
     }
     footer button{
         width: 289px;
     }
     footer{
-        height: 600px;        
+        height: 400px;        
     }
 
+    footer img{
+        width: 90%;
+        padding-left: 20px;
+    }
+    
     
     
 }
