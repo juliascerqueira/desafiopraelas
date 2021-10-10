@@ -92,7 +92,7 @@ header .col ul li a:hover{
 
 /* MAIN */
 
-main{
+main .first{
     /* background-color:#2d2ba8; */
     /* height: 1777px; */
     padding: 80px;
@@ -126,8 +126,8 @@ main .col2{
         
 }
 
-main img{
-    /* border: 1px solid #000000; */
+main .first img{
+    /* border: 1px solid #000000;*/
 }
 
 main .container1 h1{
@@ -157,11 +157,105 @@ main .container1 p{
 
 }
 
+main .second{
+    max-width: 1440px;
+    background-color: #FF4081;
+    height: 1235px;
+    /* padding: 75px 0px; */
+
+}
+
+/* main .container5{
+    height: 1085px;
+    max-width: 1244px;
+    margin: auto;
+    margin-top: 75px;
+    background-color: #fff;
+} */
+main  .container3{
+    max-width: 1244px;
+    margin: auto;
+    padding: 75px 0px;
+    
+    height: 411px;
+    background-color: #000000;
+}
+
+main  .container4{
+    max-width: 1050px;
+    height: 261px;
+    margin: 0 auto;
+    
+    
+    background-color: #691f1f;
+}
+
+main .row2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+/* main .col3{
+    width: 50%;    
+    margin-bottom: 40px;   
+} */
+
+/* main .col4{
+    width: 50%;     */
+    
+    
+    
+    /* padding: 0px 80px; */
+        
+/* } */
 
 
 
 
+main .second img{
+    
+    /* background-color: #be6767; */
+    
+}
+/* 
+main .second h2{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    /* margin: 30px; */
+    /* margin-bottom: 60px; */
+    /* color: #FF4081; */
 
+    /* padding-bottom: 20px; */
+    
+/* 
+}
+
+main .content{
+    margin: 20px;
+    
+    
+    
+} */
+/* main .second p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+    color: #000000;
+    width: 95%;
+
+} */
 
 
 
@@ -339,7 +433,7 @@ button:hover{
         
     }
     
-    main img{
+    main .first img{
         width: 80%;        
         margin-left: 100px;
         margin-bottom: 5px;
@@ -449,7 +543,7 @@ button:hover{
         
     }
     
-    main img{
+    main .first img{
         width: 100%;
         margin: auto;        
         margin-top: 40px;
