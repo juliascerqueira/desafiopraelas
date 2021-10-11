@@ -495,10 +495,16 @@ main .container6 p{
     color: #000;
 }
 
-main .fourth a{
+main .blog-button a{
     text-decoration: none;
     color: #FF4081 ;
 }
+
+main .col10 a{
+    text-decoration: none;
+    color: #009688;
+}
+
 
 main .container6 button{
     border: 2px solid #FF4081;
