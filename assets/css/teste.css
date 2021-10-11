@@ -178,25 +178,29 @@ main .row2{
     flex-wrap: wrap;
     align-items: center;
     
+    
 }
 main .col3{
     width: 344px; 
     height: 504px;       
     
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
 }
 
 main .col4{
     width: 293px; 
     height: 502px;   
-    background-color: darkgreen;       
+    /* background-color: darkgreen;   */
+    margin-left: 71px;  
+       
     
 }
 
 main .col5{
     width: 304px; 
     height: 502px;  
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
+    margin-left: 71px;
 }
   
 
@@ -210,7 +214,8 @@ main  .container3{
 main .container4{
     text-align: center;
     
-    background-color: darkorange;
+    
+    /* background-color: darkorange; */
 
 }
 
@@ -222,6 +227,7 @@ main .container4 h3{
     line-height: 29px;
     /* identical to box height */
     font-weight: 700;   
+    padding-top: 43px;
 
     color: #FF4081;
 }
@@ -235,8 +241,11 @@ main .container4 p{
     line-height: 20px;
     text-align: center;
     font-weight: 300;
-
+    width: 293px;
     color: #000000;
+    margin: auto;
+
+    padding: 23px 0px;
 }
 
 
@@ -271,6 +280,14 @@ main .container4 button{
 
 main .second img{
     height: 270px;
+    
+}
+
+
+
+
+main .third{
+    height: 701px;
 }
 
 
@@ -278,7 +295,10 @@ main .second img{
 
 
 
-
+main .fourth{
+    height: 730px;
+    background-color: #F6F6F6;
+}
 
 
 
