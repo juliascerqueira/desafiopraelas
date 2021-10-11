@@ -1,308 +1,2001 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
-*,*:before,*:after{
-  box-sizing:inherit;
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
 }
 
-html{
-  font-family:'Ubuntu', sans-serif;
-  box-sizing:border-box;
-  overflow-x:hidden;
-  -ms-text-size-adjust:100%;
-  -webkit-text-size-adjust:100%;
+html, body{    
+    font-family:'Ubuntu', sans-serif;
+    box-sizing:border-box;
+    overflow-x:hidden;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+/* html{
+    position: relative;
+    min-height: 100%;
+}  */
+/* html, body{
+    min-height: 100% !important; 
+}  */
+
+/* Header */
+
+header{
+    background-color:#419488;
+    height: 117px;
+    padding: 20px 82px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
-a{
-  text-decoration: none;
-  color: inherit;
-  cursor:pointer;
-  font-family: inherit;
+header .container{
+    max-width: 1255px;    
+    margin: auto;   
+    /* background-color: #000; */
+    height: 70px;
 }
 
-img{
-  border-style:none;
-  vertical-align:middle;
-  max-width:100%;
-  height:auto;
+header .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
 }
 
-button{
-  font:inherit;
-  margin:0;
-  overflow:visible;
-  text-transform:none;
-  border-radius: 68px;
-  padding: 8px 18px;
+header .col{
+    width:50%;
+}
+
+header ul{
+    width: 82%;
+    margin-left: 200px;    
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 42px;
+    
+    /* padding: 20px;
+    padding: 20px; */
+    /* padding-left: 80px; */
+    
+}
+
+/* footer .col ul li:not(:last-child){
+    margin-bo;
+} */
+
+header .col ul li a{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-transform: uppercase;  
+    color: #FDFDFD;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 700;
+}
+
+header .col ul li a:hover{
+    color: #FFFFFF;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+/* Main */
+
+main .first{
+    padding: 125px 206px 66px 206px;
+}
+
+main .container1{
+    max-width: 1028px;
+    margin: auto;
+    /* background-color: #7a1d1d; */
+    height: 521px;
+}
+
+main .row1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main .col1{
+    width: 50%;
+    margin-bottom: 220px;
+    line-height: 30px;
+    
+}
+
+main .col2{
+    width: 50%;
+    padding-right: 60px;
+    padding-bottom: 80px;
+    
+    /* background-color: azure; */
+}
+
+main .container1 h1{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    font-weight: 700;
+    color: #FF4081;
+    
+
+}
+
+
+main .container1 p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+    font-weight: 400;
+    color: #555555;
+
+}
+
+main .bunner-button {     
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 31px;
+        font-weight: 400;
+
+        color: #FF4081;
+        margin-top: 35px;
+        height: 51px;
+        width: 268px;
+        border: 2px solid #FF4081;
+        box-sizing: border-box;
+        border-radius: 62px;
+        background-color: #fff;
+  }
+
+
+main .second{
+    height:730px;
+    background-color: #F7F7F7;
+    max-width: 1440px;
+    padding: 109px 128px 117px 129px;
+}
+
+main .row2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: deeppink; */
+}
+main .col3{
+    width: 344px; 
+    height: 504px;       
+    
+    /* background-color: darkgreen; */
+}
+
+main .col4{
+    width: 293px; 
+    height: 502px;   
+    /* background-color: darkgreen;   */
+    /* margin-left: 71px;   */
+       
+    
+}
+
+main .col5{
+    width: 304px; 
+    height: 502px;  
+    /* background-color: darkgreen; */
+    /* margin-left: 71px; */
+}
+  
+
+main  .container3{
+    max-width: 1084px;
+    margin: auto;      
+    height: 504px;
+    /* background-color: #000000; */
+}
+
+main .container4{
+    text-align: center;
+    
+    
+    /* background-color: darkorange; */
+
+}
+
+main .container4 h3{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    /* identical to box height */
+    font-weight: 700;   
+    padding-top: 43px;
+
+    color: #FF4081;
+}
+
+
+main .container4 p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 300;
+    width: 293px;
+    color: #000000;
+    margin: auto;
+
+    padding: 23px 0px;
+}
+
+
+main .container4 a{
+    text-decoration: none;
+}
+
+main .container4 button{
+    background: #FF4081;
+    border-radius: 62px;
+    width: 233px;
+    height: 51px;
+    border: none;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    font-weight: 400;
+
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+main .second img{
+    height: 270px;
+    
+}
+
+
+
+
+main .third{
+    height: 701px;
+    padding: 119px 225px 155px 128px;
+}
+
+main .container5{
+    width: 1087px;
+    /* background-color: #FF4081; */
+    height: 427px;
+    margin: auto;
+}
+
+main .row4{
+    height: 104px;
+    /* background-color: aqua; */
+    margin-top: 78px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+main .row5{
+    height: 104px;
+    /* background-color: aqua; */
+    margin-top: 86px;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+main .col6{
+    width: 45.5%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+
+
+main .col9{
+    width: 45.5%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin-left: 97px; */
+    
+    
+}
+
+main .col7{
+    width: 21%;
+    /* margin-left: 28px; */
+    
+}
+
+main .col8{
+    width: 73%;
+    /* background-color: burlywood; */
+    margin-left: 28px;
+    
+    
+    
+    
+    
+    
+}
+
+main .third h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #009688;
+}
+
+main .third p{
+    width: 102%;
+    padding-bottom: 5px;
+}
+
+main .feedback{
+    font-family: Nunito !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    
+    
+    
+    
+    color: #000000;
+    
+    
+    
+    
+
+}
+
+main  .name{
+    font-family: Nunito !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    height: 22.5%;
+    color: #000000;
+    
+    
+    
+    
+    
+
+}
+
+
+
+main .fourth{
+    height: 730px;
+    background-color: #F6F6F6;
+    padding-top: 91px;
+}
+
+main .container6{
+    width: 1175px;
+    height: 586px;
+    /* background-color: chartreuse; */
+    margin: auto;
+}
+
+main .row6{
+    
+    height: 43px;
+    /* background-color: darkred; */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+    /* identical to box height */
+
+
+    color: #009688;
+}
+
+main .row7{
+    height: 318px;
+    /* background-color: darkgoldenrod; */
+    margin-top: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .col10{
+    width: 27.2%;
+
+    
+    
+}
+
+main .container6 img{
+    width: 319px;
+    height: 193px; 
+    background: #C4C4C4;
+}
+
+
+
+main .container6 h3{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+
+    color: #009688;
+}
+
+main .container6 p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000;
+}
+
+
+main .container6 button{
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 24.6%;
+    height: 51px;
+    margin-left: 454px;
+    background-color: #F6F6F6;;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FF4081;
+
+}
+
+main .row8{
+    height: 51px;
+    /* background-color: deeppink; */
+    margin-top: 101px;
+    
+    
+}
+
+main .blog-button{
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer{
+    background-color:#419488;
+    height: 207px;
+    padding: 28px;
+}
+
+footer .container{
+    max-width: 1184px;    
+    margin: auto;   
+    /* background-color: #000; */
+    /* height: 151px; */
+}
+
+footer .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .col{
+    width:33%;
+    padding: 15px 30px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 20px;
+    padding-left: 80px;
+    
+}
+
+/* footer .col ul li:not(:last-child){
+    margin-bo;
+} */
+
+footer .col ul li a{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 400;
+}
+
+footer .col ul li a:hover{
+    color: #FFFFFF;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+footer button{
+    color: #fff;
+    font-family: Ubuntu;
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: #419488;
+    box-sizing: border-box;
+    border-radius: 62px;
+    line-height: 23px;
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+    height: 51px;
+    width: 289px;
+    text-align: center;
 }
 
 button:hover{
-  cursor: pointer;
-  opacity: 0.5;
+    cursor: pointer;
+    opacity: 0.5;
 }
 
-footer button {
-  color: #fff;
-  text-align: center;
-  border: 1px solid #fff;
-  background-color: #419488;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsividade */
+
+
+
+@media only screen and (max-width: 1125px){
+
+    /* Header */
+    header{        
+        height: 117px;
+        padding: 20px;        
+    }
+    header .container{
+        width: 95%;
+    }
+    header ul{
+        width:60%;
+        padding: 0px 10px;
+    }
+    
+
+    /* Main */
+
+    main .container1{
+        /* background-color: brown; */
+        /* margin-right: 60px ; */
+    }
+    main .first{
+    padding: 60px 99px 32px 50px;
+    }
+   
+
+      main .container1 img{
+          width: 130%;
+    }
+
+
+    main .second{
+        height:700px;
+        
+        padding: 65px 78px 71px 79px;
+    }
+    
+    
+    main .col3{
+        width: 268px; 
+       
+    }
+    
+    main .col4{
+        width: 228px; 
+        
+           
+        
+    }
+    
+    main .col5{
+        width: 237.5px; 
+        
+    }
+      
+    
+   
+    
+   
+    
+
+    
+    
+ 
+    
+    main .third{
+        height: 570px;
+        padding: 73px 137px 95px 78px;
+        /* background-color: deeppink; */
+    }
+    
+    main .container5{
+        width: 849px;
+        /* background-color: #FF4081; */
+        
+    }
+    
+    main .row4{
+        height: 104px;
+        /* background-color: aqua; */
+        margin-top: 61px;
+        
+       
+        
+    }
+    
+    
+    main .row5{
+        height: 104px;
+        /* background-color: aqua; */
+        margin-top: 67px;
+        
+       
+        
+    }
+
+    
+    
+    main .col8{
+        width: 73%;
+        /* background-color: burlywood; */
+        margin-left: 22px;        
+        
+        
+        
+        
+    }
+
+    
+    main .third p{
+        width: 100%;
+        padding-bottom: 5px;
+        padding-left: 15px;
+    }
+    
+
+    
+    main .fourth{
+        height: 570px;
+        background-color: #F6F6F6;
+        padding-top: 50px;
+    }
+    
+    main .container6{
+        width: 918px;
+        height: 458px;
+        /* background-color: chartreuse; */
+        margin: auto;
+    }
+    
+    main .row6{
+        
+        height: 43px;
+        /* background-color: darkred; */
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 43px;
+        /* identical to box height */
+    
+    
+        color: #009688;
+    }
+    
+    main .row7{
+        height: 318px;
+        /* background-color: darkgoldenrod; */
+        margin-right: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    
+    main .col10{
+        width: 27.2%;
+    
+        
+        
+    }
+    
+    main .container6 img{
+        width: 280px;
+        height: 193px; 
+        background: #C4C4C4;
+    }
+    
+    
+    
+    main .container6 h3{
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 31px;
+        width: 280px;
+        color: #009688;
+    }
+    
+    main .container6 p{
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        width: 280px;
+        
+    
+        color: #000;
+    }
+    
+    
+    main .container6 button{
+        border: 2px solid #FF4081;
+        box-sizing: border-box;
+        border-radius: 62px;
+        width: 24.6%;
+        height: 51px;
+        margin-left:355px;
+        background-color: #F6F6F6;;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 29px;
+    
+        color: #FF4081;
+    
+    }
+    
+    main .row8{
+        height: 51px;
+        /* background-color: deeppink; */
+        margin-top: 40px;
+        
+        
+        
+    }
+    
+    main .blog-button{
+        margin: auto;
+    }
+    
+    
+    
+    
+    
   
-}
-
-.bunner-button {
-  width: 268px;
-height: 51px;
-left: 207px;
-top: 577px;
-border: 2px solid #FF4081;
-font-size: 27px;
-color: #FF4081;
-  background-color: #fff;
-  line-height: 31px;
-  margin-top: 8px;  
-}
-
-.cursos-button {
-  color: #fff;
-  background-color: #FF4081;
-  border: none;
-  font-size: 18px;
-}
-
-.blog-button {
-border: 2px solid #FF4081;
-color: #FF4081;
-  background-color: #fff;
-  font-size: 20px;
-}
-
-h1 {
-  font-size: 60px;
-  line-height: 69px;
-  margin-bottom: 8px;
-  font-weight: bold;
-}
-
-.sub-title {
-  font-size: 27px;
-}
-
-h3 {
-  font-size: 25px;
-  line-height: 29px;
-}
-
-h1,
-h3 {
-  color: #FF4081
-}
-
-h2 {
-  color: #009688;
-  margin-left: 3%;
-}
-
-.col p {
-  margin-top: 0;
-}
-
-.top{
-  position:fixed;
-  width:100%;
-  z-index:1;
-  top:0;
-  left: 0;
-  color: #fff;
-  background-color: #419488;
-}
-
-.item{
-  border:none;
-  display:inline-block;
-  padding:8px 16px;
-  background-color:inherit;
-  text-align:center;  
-  white-space:nowrap;
-  width:100%;
-  text-align:left;
-  bottom:0
-}
-
-.item:hover{
-  opacity: 0.5;
-}
-
-.bar {
-  padding:8px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.bar-item{
-  padding:10px 16px;
-  float:left;
-  width:auto;
-  border:none;
-  display:inline;
-  font-weight: bold;
-}
-
-.right{
-  float:right!important;
-}
-
-.center{
-  text-align:center!important;
-}
-
-.left {
-  text-align: left!important;
-}
-
-.row{
-  padding: 10%;
-  padding-top:64px!important;
-  padding-bottom:64px!important;  
-}
-
-.row:after{content:"";
-  display:table;
-  clear:both
-}
-
-.row2{
-  padding: 10%;
-  padding-top: 64px!important;
-  padding-bottom: 64px!important;
-  display: inline-flex;
-  text-align: center;
-  background: #F7F7F7;
-}
-
-.row2:after{content:"";
-  display:table;
-  clear:both;
-}
-
-.row-blog {
-  padding-top: 64px!important;
-  padding-bottom: 64px!important;
-  display: inline-flex;
-  text-align: center;
-  background: #F7F7F7;
-}
-
-.row2-blog{content:"";
-  display:table;
-  clear:both;
-}
-
-.col{
-  float:left;
-  width:100%;
-  padding:12px 24px!important
-}
-
-.col2 {
-  display:inline;
-  align-items: center;
-}
-
-.col3 {
-  float: left;
-  width:100%;
-  padding:12px 24px!important;
-}
-
-.col4 {
-  float:left;
-  width:100%;
-  padding:12px 24px!important
-}
 
 
-.bar2 {
-  padding:8px 16px;
-  display: inline-flex;
-  width:100%;
-  z-index:1;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
-footer {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    color: #fff;
-    background-color: #419488;
-}
 
 
-@media (min-width:601px){
-.col {
-  width:50%;
-}
-.col3 {
-  width:50%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    /* Footer */
+    footer .col{
+        width: 33%;
+        padding: 15px 15px;
+        
+    } 
+    footer ul{
+        /* padding: 20px; */
+        padding-left: 120px;
+    }
+    footer button{
+        border-radius: 62px;
+        line-height: 23px;
+        font-size: 20px;
+        height: 51px;
+        width: 240px;
+    }
+
+    
 }
 
-@media (min-width:993px){
-.content {
-  margin-left:auto;
-  margin-right:auto;
-  max-width:100%;
-}
+@media only screen and (max-width: 880px){
+
+    /* Header */
+    header{        
+        height: 117px;
+        padding: 20px;        
+    }
+    header .container{
+        width: 95%;
+        padding-right: 100px;
+        
+        
+        
+    }
+
+    header .col ul li a{
+        padding: 15px;
+           
+    }
+
+    header ul{
+        width:10%;     
+        padding: 0px 50px;  
+    }
+   
+
+    /* Main */
+    
+    
+    main .container1{
+        /* background-color: brown; */
+        /* margin-right: 60px ; */
+        height: 420px;
+    }
+    main .first{
+    padding: 60px 120px 32px 30px;
+    }
+   
+
+      main .container1 img{
+          width: 150%;
+          margin-bottom: 60px;
+          margin-left: 20px;
+    }
+
+    main .container1 h1{
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 55px;
+        font-weight: 700;
+        color: #FF4081;
+        width: 110%;
+    
+    }
+    
+    
+    main .container1 p{
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 31px;
+        font-weight: 400;
+        color: #555555;
+    
+    }
+    
+    main .bunner-button {     
+            
+            font-size: 25px;
+            line-height: 31px;
+            font-weight: 400;
+    
+            color: #FF4081;
+            margin-top: 35px;
+            height: 47px;
+            width: 248px;
+            border: 2px solid #FF4081;
+            box-sizing: border-box;
+            border-radius: 62px;
+            background-color: #fff;
+    }
+    
+      main .second{
+        height:1700px;
+        background-color: #F7F7F7;
+        /* max-width: 1440px; */
+        padding: 66px 78px 71px 77px;
+    }
+    
+    main .row2{
+        display: inline-block;
+        flex-wrap: wrap;
+        align-items: center;
+        /* justify-content: space-evenly; */
+        /* background-color: deeppink; */
+    }
+    main .col3{
+        width: 344px; 
+        height: 504px;       
+        
+        /* background-color: darkgreen; */
+    }
+    
+    main .col4{
+        width: 293px; 
+        height: 502px;   
+        /* background-color: darkgreen;   */
+        margin-left: 25px;
+        margin-top: 50px;  
+           
+        
+    }
+    
+    main .col5{
+        width: 304px; 
+        height: 502px;  
+        /* background-color: darkgreen; */
+        margin-left: 20px;  
+        margin-top: 50px;
+    }
+      
+    
+    main  .container3{
+        max-width: 1084px;
+        margin: auto;      
+        height: 504px;
+        /* background-color: #000000; */
+    }
+    
+    main .container4{
+        text-align: center;
+        
+        
+        /* background-color: darkorange; */
+    
+    }
+    
+    main .container4 h3{
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 29px;
+        /* identical to box height */
+        font-weight: 700;   
+        padding-top: 43px;
+    
+        color: #FF4081;
+    }
+    
+    
+    main .container4 p{
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        font-weight: 300;
+        width: 293px;
+        color: #000000;
+        margin: auto;
+    
+        padding: 23px 0px;
+    }
+    
+    
+    main .container4 a{
+        text-decoration: none;
+    }
+    
+    main .container4 button{
+        background: #FF4081;
+        border-radius: 62px;
+        width: 233px;
+        height: 51px;
+        border: none;
+    
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        font-weight: 400;
+    
+        color: #FFFFFF;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    main .second img{
+        height: 270px;
+        
+    }
+    
+    
+
+
+
+
+
+    main .third{
+        height: 530px;
+        padding: 45px 83px 58px 48px;
+        /* background-color: deeppink; */
+    }
+    
+    main .container5{
+        width: 662px;
+        /* background-color: #FF4081; */
+        
+    }
+    
+    main .row4{
+        height: 104px;
+        /* background-color: aqua; */
+        margin-top: 48px;
+        
+       
+        
+    }
+    
+    
+    main .row5{
+        height: 104px;
+        /* background-color: aqua; */
+        margin-top: 52px;
+        
+       
+        
+    }
+
+    main .row5{
+        margin-top:70px;
+    }
+    
+    main .col8{
+        width: 73%;
+        /* background-color: burlywood; */
+        margin-left: 17px;        
+        
+        
+        
+        
+    }
+
+    
+    main .third p{
+        width: 120%;
+        padding-bottom: 5px;
+        padding-left: 30px;
+    }
+    
+
+
+
+
+    main .fourth{
+        height: 1350px;
+        background-color: #F6F6F6;
+        padding-top: 50px;
+    }
+    
+    main .container6{
+        width: 560px;
+        height: 458px;
+        /* background-color: chartreuse; */
+        margin: auto;
+    }
+    
+    main .row6{
+        
+        height: 43px;
+        /* background-color: darkred; */
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 43px;
+        /* identical to box height */
+    
+    
+        color: #009688;
+    }
+    
+    main .row7{
+        height: 318px;
+        /* background-color: darkgoldenrod; */
+        margin-left: 150px;
+        display: inline-block;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    
+    main .col10{
+        width: 27.2%;
+        margin-bottom: 30px;
+    
+        
+        
+    }
+    
+    main .container6 img{
+        width: 280px;
+        height: 193px; 
+        background: #C4C4C4;
+    }
+    
+    
+    
+    main .container6 h3{
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 31px;
+        width: 280px;
+        color: #009688;
+    }
+    
+    main .container6 p{
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        width: 280px;
+        
+    
+        color: #000;
+    }
+    
+    
+    main .container6 button{
+        border: 2px solid #FF4081;
+        box-sizing: border-box;
+        border-radius: 62px;
+        width: 50%;
+        height: 51px;
+        margin-left:150px;
+        background-color: #F6F6F6;;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 29px;
+    
+        color: #FF4081;
+    
+    }
+    
+    main .row8{
+        height: 51px;
+        /* background-color: deeppink; */
+        margin-top: 40px;
+        
+        
+        
+    }
+    
+    main .blog-button{
+        margin: auto;
+    }
+    
+    
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    /* Footer */
+    footer .col{
+        width: 33%;
+        padding: 15px 15px;
+        
+    } 
+    footer ul{
+        /* padding: 20px; */
+        padding-left: 120px;
+    }
+    footer button{
+        border-radius: 62px;
+        line-height: 23px;
+        font-size: 20px;
+        height: 51px;
+        width: 230px;
+    }
+
+    
 }
 
-@media screen and (max-width: 645px) { 
-  .row2 {    
+@media only screen and (max-width: 780px){
+
+    /* Header */
+    header{        
+        height: 117px;
+        padding: 20px;        
+    }
+    header .container{
+        width: 100%;
+        padding-right: 40px;
+        
+    }
+
+    header .col ul li a{
+        padding: 0px;
+        margin-right: 20px ;
+        
+    }
+
+    header ul{
+        width: 1%;   
+        padding: 0px 7px;    
+    }
+   
+
+    /* Main */
+    main .container1{        
+        height: 420px;
+    }
+
+    main .first{
+    padding: 40px 120px 32px 20px;
+    }
+   
+
+    main .container1 img{
+          width: 160%;
+          margin-bottom: 70px;
+          margin-left: 20px;
+    }
+
+    main .container1 h1{
+        font-size: 38px;
+        line-height: 55px;
+        width: 110%;
+    
+    }
+    
+    
+    main .container1 p{
+        font-size: 22px;        
+        width: 120%;
+    
+    }
+    
+    main .bunner-button {     
+            font-size: 22px;
+            line-height: 31px;                   
+            margin-top: 35px;
+            height: 41px;
+            width: 218px;            
+    } 
+
+    main .third{
+        height: 1000px;
+        padding: 39px 73px 51px 42px;
+        /* background-color: deeppink; */
+    }
+    
+    main .container5{
+        width: 579px;  
+    }
+    
+    main .row3{
+        margin-left: 55px;
+    }
+
+
+    main .row4 img{
+        margin-left: 250px;
+    }
+    
+    main .row5 img{
+        margin-left: 250px;
+        
+    }
+  
+    
+    main .row5{        
+        display: inline-block;    
+    }
+
+    main .row4{
+        display: inline-block;
+    }
+
+
+    main .third p{
+        width: 320%;
+    }
+    
+
+
+
+
+
+    
+        
+      
+    
+
+
+
+    
+
+    /* Footer */
+
+    footer{
+        background-color:#419488;
+        height: 50%;
+        padding: 28px;
+    }
+
+    footer .container{
+        padding: 0px 50px;
+    }
+    footer .col{
+        width: 50%;
+        margin: auto;
+        /* padding: 20px; */
+        
+    } 
+
+    
+
+  
+    
+        
+    footer button{
+        margin-right: auto;
+        border-radius: 62px;
+        line-height: 23px;
+        font-size: 20px;
+        height: 51px;
+        width: 260px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px){
+    
+    /* Header */
+    header{        
+        height: 150px;
+        padding:20px;        
+    }
+    header .container{
+        width: 100%;
+        /* background-color: #FF4081; */
+        height: 100%;
+        /* margin-left: 15%; */
+        
+    }
+
+    header .col{
+        width: 100%;
+        padding-left: 70px;
+        
+    }
+
+    header img{
+        width: 95%;
+        padding: 0px 10px;
+        
+    }
+
+    
+    
+    header ul{
+        /* display: inline-block; */
+        list-style: none;
+        margin: auto;
+        /* padding: 15px 70px; */
+        line-height: 70px;
+        padding-left: 20px;
+        
+        
+        
+    }
+
+
+    /* Main */
+    main .container1{
+        width: 135%;
+        /* background-color: brown; */
+        /* margin-right: 60px ; */
+        height: 720px;
+    }
+
+    main .col1{
+        width: 100%;
+        margin: auto;       
+        margin-right: 30px;
+        text-align: center;
+        /* background-color: coral; */
+        
+    }
+
+    main .col2{
+        width: 100%;
+        /* background-color: chartreuse; */
+    }
+
+    main .container1 h1{
+        font-size: 38px;
+        line-height: 50px;
+        width: 110%;
+    
+    }
+
+    main .container1 p{
+        font-size: 22px;
+        line-height: 31px;
+        width: 120%;
+        padding-right: 20px;
+    
+    }
+
+    main .bunner-button {     
+        font-size: 22px;
+        line-height: 31px;                   
+        margin-top: 35px;
+        margin-left: 45px;
+        height: 41px;
+        width: 218px;            
+  }
+
+  main .container1 img{
+    width: 100%;    
+    margin-left: 45px;
+    margin-top: 60px;
+    
+        
+}
+
+
+main .container1{
+    /* background-color: brown; */
+    /* margin-right: 60px ; */
+    height: 800px;
+}
+main .first{
+padding: 60px 120px 32px 30px;
+}
+
+
+  main .container1 img{
+      width: 120%;
+      margin-bottom: 60px;
+      margin-left: 10px;
+}
+
+main .container1 h1{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #FF4081;
+    width: 110%;
+
+}
+
+
+main .container1 p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    font-weight: 400;
+    color: #555555;
+
+}
+
+main .bunner-button {     
+        
+        font-size: 25px;
+        line-height: 31px;
+        font-weight: 400;
+
+        color: #FF4081;
+        margin-top: 35px;
+        height: 47px;
+        width: 248px;
+        border: 2px solid #FF4081;
+        box-sizing: border-box;
+        border-radius: 62px;
+        background-color: #fff;
+}
+
+
+
+
+
+
+  main .second{
+    height:1700px;
+    background-color: #F7F7F7;
+    /* max-width: 1440px; */
+    padding: 41px 48px 44px 48px;
+}
+
+main .row2{
+    display: inline-block;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .row-blog {    
-    flex-direction: column;
     align-items: center;
-  }
+    /* justify-content: space-evenly; */
+    /* background-color: deeppink; */
+}
+main .col3{
+    width: 344px; 
+    height: 504px;       
+    
+    /* background-color: darkgreen; */
+}
 
-  h1 {
-    font-size: 35px;
-    line-height: 40px;
-    font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 8px;
-  }
+main .col4{
+    width: 293px; 
+    height: 502px;   
+    /* background-color: darkgreen;   */
+    margin-left: 20px;
+    margin-top: 50px;  
+       
+    
+}
+
+main .col5{
+    width: 304px; 
+    height: 502px;  
+    /* background-color: darkgreen; */
+    margin-left: 15px;  
+    margin-top: 50px;
+}
   
-  .sub-title {
+
+main  .container3{
+    max-width: 1084px;
+    margin: auto;      
+    height: 504px;
+    /* background-color: #000000; */
+}
+
+main .container4{
+    text-align: center;
+    
+    
+    /* background-color: darkorange; */
+
+}
+
+main .container4 h3{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    /* identical to box height */
+    font-weight: 700;   
+    padding-top: 43px;
+
+    color: #FF4081;
+}
+
+
+main .container4 p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 300;
+    width: 293px;
+    color: #000000;
+    margin: auto;
+
+    padding: 23px 0px;
+}
+
+
+main .container4 a{
+    text-decoration: none;
+}
+
+main .container4 button{
+    background: #FF4081;
+    border-radius: 62px;
+    width: 233px;
+    height: 51px;
+    border: none;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    font-weight: 400;
+
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+main .second img{
+    height: 270px;
+    
+}
+
+
+
+
+
+
+
+main .third{
+    height: 1200px;
+    padding: 28px 51px 36px 28px;
+    /* background-color: deeppink; */
+}
+
+main .container5{
+    width: 410px;
+    /* background-color: #FF4081; */
+    
+}
+
+main .row4{
+    height: 104px;
+    /* background-color: aqua; */
+    margin-top: 48px;
+    
+   
+    
+}
+
+
+main .row5{
+    height: 104px;
+    /* background-color: aqua; */
+    margin-top: 52px;
+    
+   
+    
+}
+main .third h2{
+    font-size: 38px;
+    text-align: center;
+    margin-right: 65px;
+}
+main .row5{
+    margin-top:150px;
+}
+
+main .col8{
+    width: 73%;
+    /* background-color: burlywood; */
+    margin-left: 25px;        
+    
+    
+    
+    
+}
+main .third img{
+    margin-left: 150px;
+}
+
+
+main .third p{
+    width: 220%;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    margin-left: 15px;
+}
+
+
+
+
+
+main .fourth{
+    height: 1300px;
+    background-color: #F6F6F6;
+    padding-top: 50px;
+}
+
+main .container6{
+    width:347px;
+    height: 458px;
+    /* background-color: chartreuse; */
+    margin: auto;
+}
+
+main .row6{
+    font-size: 24px;    
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+main .row7{
+    height: 318px;
+    /* background-color: darkgoldenrod; */
+    margin-left: 30px;
+    display: inline-block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+main .container6 p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
-  }
-  
-  .bunner-button { 
-    width: 218px;
-  height: 51px;
-  left: 207px;
-  top: 577px;
-  border: 2px solid #FF4081;
-  font-size: 20px;
-  }
+    line-height: 21px;
+    width: 400%;
+    
+    
+
+    color: #000;
 }
 
-@media screen and (max-width: 1200px) {   
-.row-blog {
-  padding-top: 64px!important;
-  padding-bottom: 64px!important;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+
+main .container6 button{    
+    width: 80%;    
+    margin-left:40px;  
 }
+
+main .row8{
+    height: 51px;
+    /* background-color: deeppink; */
+    margin-top: 40px;
+    
+    
+    
 }
+
+main .blog-button{
+    margin: auto;
+}
+
+
+
+   
+
+   
+   
+    
+    
+  
+    
+   
+  
+    
+
+    /* Footer */
+
+    footer .container{
+        padding: 0px 15px;
+        /* background-color: #FF4081; */
+        height: 350px;
+    }
+
+
+    footer .col{
+        width: 100%;
+        /* padding: 15px 15px; */
+        height: 100px;
+        margin: auto;
+    } 
+
+    footer .row{
+        align-items: center;
+        
+    }
+    footer ul{
+        /* padding: 20px; */
+        padding-left: 30px;
+        display: flex;
+        /* width: 80%; */
+    }
+    
+        
+            
+            
+            
+            
+        
+    
+
+    footer li{
+        padding: 10px;
+    }
+    footer button{
+        width: 289px;
+    }
+    footer{
+        height: 400px;        
+    }
+
+    footer img{
+        width: 90%;
+        padding-left: 20px;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
