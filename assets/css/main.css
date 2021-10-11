@@ -148,6 +148,11 @@ main .container1 p{
 
 }
 
+main .first a{
+    text-decoration: none;
+    color: #FF4081;;
+}
+
 main .bunner-button {     
         font-family: Ubuntu;
         font-style: normal;
@@ -252,6 +257,7 @@ main .container4 p{
 
 main .container4 a{
     text-decoration: none;
+    color:#fff
 }
 
 main .container4 button{
@@ -489,6 +495,10 @@ main .container6 p{
     color: #000;
 }
 
+main .fourth a{
+    text-decoration: none;
+    color: #FF4081 ;
+}
 
 main .container6 button{
     border: 2px solid #FF4081;
