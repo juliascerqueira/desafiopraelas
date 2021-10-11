@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 
 
 *{
@@ -288,22 +289,234 @@ main .second img{
 
 main .third{
     height: 701px;
+    padding: 119px 225px 155px 128px;
+}
+
+main .container5{
+    width: 1087px;
+    /* background-color: #FF4081; */
+    height: 427px;
+    margin: auto;
+}
+
+main .row4{
+    height: 104px;
+    /* background-color: aqua; */
+    margin-top: 78px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
 }
 
 
+main .row5{
+    height: 104px;
+    /* background-color: aqua; */
+    margin-top: 86px;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+main .col6{
+    width: 45.5%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
 
+
+main .col9{
+    width: 45.5%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 97px;
+    
+    
+}
+
+main .col7{
+    width: 21%;
+    /* margin-left: 28px; */
+    
+}
+
+main .col8{
+    width: 73%;
+    /* background-color: burlywood; */
+    margin-left: 28px;
+    
+    
+    
+    
+    
+    
+}
+
+main .third h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #009688;
+}
+
+main .third p{
+    width: 102%;
+    padding-bottom: 5px;
+}
+
+main .feedback{
+    font-family: Nunito !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    
+    
+    
+    
+    color: #000000;
+    
+    
+    
+    
+
+}
+
+main  .name{
+    font-family: Nunito !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    height: 22.5%;
+    color: #000000;
+    
+    
+    
+    
+    
+
+}
 
 
 
 main .fourth{
     height: 730px;
     background-color: #F6F6F6;
+    padding-top: 91px;
+}
+
+main .container6{
+    width: 1175px;
+    height: 586px;
+    /* background-color: chartreuse; */
+    margin: auto;
+}
+
+main .row6{
+    
+    height: 43px;
+    /* background-color: darkred; */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+    /* identical to box height */
+
+
+    color: #009688;
+}
+
+main .row7{
+    height: 318px;
+    /* background-color: darkgoldenrod; */
+    margin-top: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .col10{
+    width: 27.2%;
+
+    
+    
+}
+
+main .container6 img{
+    width: 319px;
+    height: 193px; 
+    background: #C4C4C4;
 }
 
 
 
+main .container6 h3{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+
+    color: #009688;
+}
+
+main .container6 p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000;
+}
 
 
+main .container6 button{
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 24.6%;
+    height: 51px;
+    margin-left: 454px;
+    background-color: #F6F6F6;;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FF4081;
+
+}
+
+main .row8{
+    height: 51px;
+    /* background-color: deeppink; */
+    margin-top: 101px;
+    
+    
+}
+
+main .blog-button{
+    margin: auto;
+}
 
 
 
