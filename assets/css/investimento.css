@@ -158,7 +158,7 @@ main .container1 p{
 }
 
 main .second{
-    max-width: 1440px;
+    /* width: 1440px; */
     background-color: #F7F7F7;;
     height: 1235px;
     /* padding: 75px 0px; */
@@ -226,7 +226,11 @@ main .col4{
 
 
 
+
+
 main .second img{
+    width: 462px;
+    height: 261px;
     
     /* background-color: #be6767; */
     
@@ -381,6 +385,7 @@ button:hover{
 
     /* Main */
 
+   
     main .container3{
         margin-left: 90px;
     }
@@ -394,6 +399,11 @@ button:hover{
         width: 80%;
     }
 
+    main .second img{
+        width: 360px;
+        height: 204px;
+
+    }
 
     /* Footer */
     footer .col{
@@ -517,6 +527,10 @@ button:hover{
     }
     main .second{
         height: 1950px;    
+    }
+
+    main .second img{
+        height: 300px;
     }
 
     main .second p{
@@ -651,6 +665,10 @@ button:hover{
         width: 100%;
     }
 
+        main .second img{
+            width: 340px;
+            height: 200px;
+        }
     
 
     /* Footer */
