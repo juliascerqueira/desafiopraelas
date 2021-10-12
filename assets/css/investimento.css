@@ -173,7 +173,7 @@ main .second{
     background-color: #fff;
 } */
 main  .container3{
-    max-width: 1244px;
+    width: 1244px;
     margin: auto;
     padding: 75px 0px;
     
@@ -185,7 +185,7 @@ main  .container3{
 
 
 main  .container4{
-    max-width: 1050px;
+    width: 1050px;
     height: 261px;
     margin: 0 auto;
     
@@ -382,7 +382,7 @@ button:hover{
     /* Main */
 
     main .container3{
-        margin-left: 90px;
+        margin-left: 10px;
     }
     main .line{
         width: 90%;
