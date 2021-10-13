@@ -168,79 +168,130 @@ hr {
         flex-wrap: wrap;   
         margin-right: 100px;
         justify-content: center; 
+        /* background-color: rgb(70, 70, 70); */
+    }
+
+    .courses2{
+        margin-bottom: 10px;
+        /* background-color: coral; */
+    }
+
+    .courses3 p{
+        padding: 10%;
+    }
+
+    .line{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    #line1{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    #button1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 
 }
 
+
 @media only screen and (max-width: 780px){
-    /* .courses3 h2{
-        margin-left: 200px;
-        flex-wrap: wrap;   
-        margin-right: 100px;
-        justify-content: center;
-    } */
+
+    .line{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #line1{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    #button1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .courses3 p{
+         margin-left: auto;
+         margin-left: auto;
+    }
+   
 }
 
-@media only screen and (max-width: 880px){
-
-}
-
-@media (max-width: 900px){
-    
-}
 
 
 @media only screen and (max-width: 1125px){
     
+    /* main */
     main{
         width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: auto;
+        /* background-color: cyan; */
     } 
 
+    /* Título/Subtítulo */
     .title{
         margin-top: 0px;
         padding: 0px;
         margin-left: 100px;
     }
+
+    /* Blocos de Cursos */
     .courses, .courses2, .courses3{
         flex-wrap: wrap ;
         margin: 0;
         padding: 2px;
         justify-content: center;
+        /* background-color: darkorchid; */
     }
 
-    .courses3{
-        flex-wrap: wrap ;
-        margin: 0;
-        padding: 2px;
-        justify-content: center;
+    .text1 h2{
+        margin-left: 100px;
     }
-
 
     .courses3 p{
         display: flex;
         flex-grow: initial;
-        margin: auto;
     }
 
-    img{
-        width: 80%;
-        margin-left: auto;
-        display: block;
-    }
-    
     .text p{
         padding: 10px;
     }
 
     .text1 p{
         padding: 10px;
-        margin-left: 250px;
+        margin-left: 100px;
         margin-right: 100px;
-        margin:0px;
+    }
+
+    img{
+        width: 80%;
+        margin-left: auto;
     }
 
     .button{
@@ -249,9 +300,8 @@ hr {
     }
 
     #button1{
-        margin-left: 250px;
-        margin-right: 100px;
-        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .line{
@@ -261,9 +311,4 @@ hr {
     #line1{
         margin-bottom: 5px;
     }
-}
-
-
-@media (max-width: 900px){
-    
 }
