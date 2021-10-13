@@ -1,8 +1,7 @@
 # Criação de uma plataforma | Empresa DINDIN
 
-Desafio de finalização do programa pra elas do Gama Academy em parceria com o Banco BV. </br>
+Desafio de finalização do programa pra elas do Gama Academy em parceria com o Banco BV. 
 
-Sendo construído</br>
 
 ### Layout
 - [Layout 1](https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin?node-id=0%3A1)
