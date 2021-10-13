@@ -16,13 +16,7 @@ html, body{
     -webkit-text-size-adjust:100%;
 }
 
-/* html{
-    position: relative;
-    min-height: 100%;
-}  */
-/* html, body{
-    min-height: 100% !important; 
-}  */
+
 
 /* Header */
 
@@ -145,26 +139,22 @@ main .container1{
   height: 1743px;
   display: inline-block;
   flex-wrap: wrap;
-  margin: auto;
   
-/*   
-  background-color: aqua; */
+  /*background-color: aqua; */
 }
 
 main .row1{
   height: 79px;
   width: 100%;
   /* background-color: #FF4081; */
-  display: flex;
-  flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  /* margin: auto; */
+  margin: auto;
 }
 
 
 main .post{
-  height: 1061px;
+  height: 1032px;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 300;
@@ -172,7 +162,7 @@ main .post{
   line-height: 21px;
   font-feature-settings: 'kern' off;
 
-  /* color: #000000; */
+  color: #000000;
 
   
 }
@@ -197,7 +187,7 @@ main .post p{
 
 main .first img{
   height: 465px;
-  /* width: 1032px; */
+  width: 1032px;
   background-color: #C4C4C4;  
   margin-top: 74px;
   margin-bottom: 64px;
@@ -207,7 +197,7 @@ main .first img{
 main .second{
   height:899px;
   background-color: #F7F7F7;
-  /* width: 1440px; */
+  width: 1440px;
   padding:79px 128px 98px 70px;
 }
 
@@ -380,9 +370,7 @@ footer ul{
   
 }
 
-/* footer .col ul li:not(:last-child){
-  margin-bo;
-} */
+
 
 footer .col ul li a{
   font-family: Ubuntu;
@@ -430,10 +418,6 @@ button:hover{
 
 
 /* Responsividade */
-/* Responsividade */
-
-
-
 
 
 
@@ -452,17 +436,177 @@ button:hover{
       padding: 0px 10px;
   }
   
+  
+    /* Main */
 
-  /* Main */
+  main .first{
+    padding: 68px 124px 68px 105px;
+  }
 
- 
+
+
+  main .container1{
+    width: 804px;
+  
+  }
+
+
+
+  main .first img{
+    
+    width: 804px;
+  
+  }
+
+
+
+
+  main .second{
+    height:760px;
+    background-color: #F7F7F7;
+    
+    padding:61px 150px 77px 0px;
+  }
+
+
+
+  main .row3 h1{
+    height: 57px;
+    /* background-color: #419488; */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    /* display: flex;
+    align-items: center; */
+
+
+    color: #FF4081;
+
+  }
+
+  main .row4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 50px;
+    /* background-color: deeppink; */
+  }
+  main .col3{
+    width: 268px; 
+    height: 564px;       
+    
+    /* background-color: darkgreen; */
+  }
+
+  main .col4{
+    width: 228px; 
+    height: 561px;   
+    /* background-color: darkgreen;   */
+    /* margin-left: 71px;   */
+      
+    
+  }
+
+  main .col5{
+    width: 237px; 
+    height: 561px;  
+    /* background-color: darkgreen; */
+    /* margin-left: 71px; */
+  }
+
+
+  main  .container3{
+    width: 950px;
+    margin: auto;      
+    height: 564px;
+    /* background-color: #000000; */
+    margin-right: 300px;
+  }
+
+  main .container4{
+    text-align: center;
+    
+  /* background-color: darkorange; */
+
+  }
+
+  main .container4 h3{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    /* identical to box height */
+    font-weight: 700;   
+    padding-top: 43px;
+
+    color: #FF4081;
+  }
+
+
+  main .container4 p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 300;
+    width: 228px;
+    color: #000000;
+    margin: auto;
+
+    padding: 23px 0px;
+  }
+
+
+  main .container4 a{
+    text-decoration: none;
+    color:#fff
+  }
+
+  main .container4 button{
+    background: #FF4081;
+    border-radius: 62px;
+    width: 233px;
+    height: 51px;
+    border: none;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    font-weight: 400;
+
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+  main .second img{
+    height: 270px;
+    
+  }
+
 
 
   /* Footer */
+
+ 
   footer .col{
-      width: 33%;
-      padding: 15px 15px;
-      
+    width: 33%;
+    padding: 15px 15px;
+    
   } 
   footer ul{
       /* padding: 20px; */
@@ -476,8 +620,8 @@ button:hover{
       width: 240px;
   }
 
-  
 }
+
 
 @media only screen and (max-width: 880px){
 
@@ -507,6 +651,8 @@ button:hover{
 
   /* Main */
 
+
+  
 
   /* Footer */
   footer .col{
@@ -555,7 +701,8 @@ button:hover{
  
 
   /* Main */
-  
+
+
   
 
   /* Footer */
@@ -643,6 +790,8 @@ button:hover{
 
 
   /* Main */
+
+
 
 
   /* Footer */
