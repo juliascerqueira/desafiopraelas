@@ -1,0 +1,250 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html, body{    
+    font-family:'Ubuntu', sans-serif;
+    box-sizing:border-box;
+    overflow-x:hidden;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+}
+
+/* Header */
+header{
+    background-color:#419488;
+    height: 117px;
+    padding: 20px 82px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header .container{
+    max-width: 1255px;    
+    margin: auto;   
+    height: 70px;
+}
+
+header .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+header .col{
+    width:50%;
+}
+
+header ul{
+    width: 82%;
+    margin-left: 200px;    
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 42px;
+}
+       
+header .col ul li a{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-transform: uppercase;  
+    color: #FDFDFD;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 700;
+}
+
+header .col ul li a:hover{
+    color: #FFFFFF;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor:pointer;
+    font-family: inherit;
+  }
+  
+
+#button1 {
+width: 108px;
+height: 32px;
+left: 3px;
+top: 391px;
+border-radius: 50px;
+font-size: 16px;
+color: #fff;
+background-color:#FF4081;
+line-height: 22px;
+margin-top: 8px;
+border: none;  
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+#button-button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.maincol1{
+        width:496px;
+    }
+.maincol2{
+    width: 444px;
+}
+      
+    h1 {
+        font-size: 40px;
+        line-height: 46px;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #FF4081;
+      }
+
+      #name{
+        width: 493px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #686868; 
+        box-sizing: border-box; 
+        border-radius: 7px; 
+        font-family: 'Ubuntu', sans-serif;
+      }
+
+      #email{
+        width: 493px; 
+        height: 32px; 
+        background: #FFFFFF;
+        border: 1px solid #686868; 
+        box-sizing: border-box;
+        border-radius: 7px; 
+        font-family: 'Ubuntu', sans-serif;
+      }
+      
+    #textarea {
+        width: 493px;
+        height: 193px;
+        top: 183px;
+        left: 3px;
+        background: #FFFFFF;
+        border: 1px solid #686868;
+        box-sizing: "border-box";
+        border-radius: 7px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    
+  .mainrow{ 
+    width: 1141px;
+    height: 444px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    }
+
+    .maincontent{
+        width: 1440px;
+        height: 625px;
+        margin: auto;
+        padding: 82px 163px 99px 136px;
+    }
+
+
+/* Footer */
+
+footer{
+    background-color:#419488;
+    height: 207px;
+    padding: 28px;
+}
+
+footer .container{
+    max-width: 1184px;    
+    margin: auto;   
+}
+
+footer .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .col{
+    width:33%;
+    padding: 15px 30px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 20px;
+    padding-left: 80px;
+    
+}
+
+footer .col ul li a{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 400;
+}
+
+footer .col ul li a:hover{
+    color: #FFFFFF;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+footer button{
+    color: #fff;
+    font-family: Ubuntu;
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: #419488;
+    box-sizing: border-box;
+    border-radius: 62px;
+    line-height: 23px;
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+    height: 51px;
+    width: 289px;
+    text-align: center;
+}
+
+#button1:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/** -- Responsividade -- **/
+
+@media (max-width: px){
+
+    
+}
