@@ -110,8 +110,8 @@ main .container1{
   display: inline-block;
   flex-wrap: wrap;
   align-items: center;
-  
-  background-color: aqua;
+/*   
+  background-color: aqua; */
 }
 
 
@@ -119,7 +119,7 @@ main .container1{
 main .row1{
   height: 79px;
   width: 100%;
-  background-color: #FF4081;
+  /* background-color: #FF4081; */
   
   align-items: center;
   text-align: center;
