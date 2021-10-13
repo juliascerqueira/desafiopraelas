@@ -99,7 +99,7 @@ main .first{
 }
 
 main .container1{
-    max-width: 929px;
+    width: 929px;
     margin: auto;
     background-color: #FFFFFF;
     height: 381px;
