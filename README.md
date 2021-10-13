@@ -9,7 +9,7 @@ Desafio de finalização do programa pra elas do Gama Academy em parceria com o 
 
 <div align="center">
    
-[***Visite o projeto aqui***](https://juliascerqueira.github.io/desafiopraelas/index.html)<br>
+[***Visite o projeto aqui***](https://juliascerqueira.github.io/desafiopraelas)<br>
 
 [![9koKPcm.png](https://i.imgur.com/9koKPcm.png)](https://imgur.com/9koKPcm)
 </div>
