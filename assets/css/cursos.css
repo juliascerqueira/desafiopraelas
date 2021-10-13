@@ -1,0 +1,269 @@
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Pré Definições */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+h1,h2 {
+    font-weight: bold;
+    color: #FF4081;
+}
+
+/* Main */
+
+
+/* Título/Subtítulo */
+.title{
+    margin: 100px 100px 95px 82px; 
+}
+
+h1{
+    width: 263px;
+    height: 69px;
+    left: 82px;
+    top: 198px;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+}
+
+h5{
+    color: #555555;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: normal;
+}
+
+/* Bloco de Resumo dos Cursos */
+
+.courses, .courses2, .courses3 {
+    display: flex;
+}
+
+.courses{   
+    margin-bottom: 68px;
+    margin-left: 112px;
+}
+
+.courses .imagens{
+    align-items: center;
+}
+
+.courses2{
+    margin-bottom: 93px;
+    margin-left: 112px;
+}
+
+.courses3{
+    margin-top: 93px;
+    margin-left: 128px;
+}
+
+
+/* Resumo do curso */
+
+h2{
+    font-size: 35px;
+    line-height: 40px;
+    top: 406px; 
+    font-style: normal;
+    margin: 20px 0px 37px 0px; 
+}
+
+.text1 h2{
+    margin-top: 60px;
+    margin-left: 26px;
+}
+
+p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.text1{ 
+    display: flex;
+    flex-direction: column;
+    width: 724px;
+    left: 545px;
+}
+
+.text1 p{
+    margin-left: 53px;
+}
+    
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 53px;
+    width: 724px;
+    left: 545px;
+}
+
+
+
+/* Botão */
+
+.button{
+    font-size: 20px;
+    line-height: 23px;
+    width: 233px;
+    height: 51px;
+    background: #2E948A;
+    border-radius: 62px;
+    border: none;
+    margin: 66px 0px 2px 0px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background: #187a6c;
+}
+
+#button1{
+    margin-top: 39px;
+    margin-left: 53px;
+}
+
+
+/* Linha */
+
+#line1{
+    margin: 2px 82px 108px 114px;
+}
+
+hr {
+    background: #C4C4C4;
+    height: 5px;
+    width: auto;
+    margin: 0px 98px 0px 98px; 
+}
+
+
+
+/* Responsividade */
+
+
+
+
+@media only screen and (max-width: 480px){
+    
+    .courses3 h2{
+        margin-left: 200px;
+        flex-wrap: wrap;   
+        margin-right: 100px;
+        justify-content: center; 
+    }
+
+}
+
+@media only screen and (max-width: 780px){
+    /* .courses3 h2{
+        margin-left: 200px;
+        flex-wrap: wrap;   
+        margin-right: 100px;
+        justify-content: center;
+    } */
+}
+
+@media only screen and (max-width: 880px){
+
+}
+
+@media (max-width: 900px){
+    
+}
+
+
+@media only screen and (max-width: 1125px){
+    
+    main{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    } 
+
+    .title{
+        margin-top: 0px;
+        padding: 0px;
+        margin-left: 100px;
+    }
+    .courses, .courses2, .courses3{
+        flex-wrap: wrap ;
+        margin: 0;
+        padding: 2px;
+        justify-content: center;
+    }
+
+    .courses3{
+        flex-wrap: wrap ;
+        margin: 0;
+        padding: 2px;
+        justify-content: center;
+    }
+
+
+    .courses3 p{
+        display: flex;
+        flex-grow: initial;
+        margin: auto;
+    }
+
+    img{
+        width: 80%;
+        margin-left: auto;
+        display: block;
+    }
+    
+    .text p{
+        padding: 10px;
+    }
+
+    .text1 p{
+        padding: 10px;
+        margin-left: 250px;
+        margin-right: 100px;
+        margin:0px;
+    }
+
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #button1{
+        margin-left: 250px;
+        margin-right: 100px;
+        align-items: center;
+    }
+
+    .line{
+        margin-bottom: 5px;
+    }
+
+    #line1{
+        margin-bottom: 5px;
+    }
+}
+
+
+@media (max-width: 900px){
+    
+}
