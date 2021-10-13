@@ -24,21 +24,24 @@ a{
   cursor:pointer;
 }
 
-img{
-  float: right;
-  border-style:none;
-  vertical-align:right;
-  max-width:100%;
-  height:auto;
-}
 
 button{
-  font:inherit;
-  margin:0;
-  overflow:visible;
-  text-transform:none;
-  border-radius: 68px;
-  padding: 8px 18px;
+  color: #fff;
+  font-family: Ubuntu;
+  text-align: center;
+  border: 2px solid #fff;
+  background-color: #419488;
+  box-sizing: border-box;
+  border-radius: 62px;
+  line-height: 23px;
+  font-size: 20px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 400;
+  height: 51px;
+  width: 289px;
+  text-align: center;
 }
 
 button:hover{
@@ -54,23 +57,25 @@ footer button {
   
 }
 
-
 h1 {
-  font-size: 50px;
-  line-height: 69px;
+  font-size: 47px;
+  line-height: 54px;
   font-family: 'Ubuntu', sans-serif;
-  margin-bottom: 8px;
+  margin-top: 130px;
+  margin-left: 70px;
 }
 
 .sub-title {
   font-size: 20px;
+  margin-left: 70px;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 29px;
+   
+  
 }
-
 
 h3 {
   color: #FF4081
@@ -82,6 +87,7 @@ h1 {
 
 .col p {
   margin-top: 0;
+ 
 }
 
 .top{
@@ -129,7 +135,6 @@ h1 {
   display:inline;
   font-weight: bold;
 }
-
 
 .right{
   float:right!important;
@@ -190,7 +195,8 @@ h1 {
 .col{
   float:left;
   width:100%;
-  padding:12px 24px!important
+  padding:12px 24px!important;
+  margin: auto;
 }
 
 .col2 {
@@ -227,7 +233,6 @@ footer {
     color: #fff;
     background-color: #419488;
 }
-
 
 @media (min-width:601px){
 .col {
@@ -273,12 +278,5 @@ footer {
     font-size: 18px;
   }
   
-  .bunner-button { 
-    width: 218px;
-  height: 51px;
-  left: 207px;
-  top: 577px;
-  border: 2px solid #419488;
-  font-size: 20px;
-  }
+  
 }
