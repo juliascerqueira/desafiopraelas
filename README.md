@@ -1,6 +1,6 @@
 # Criação de uma plataforma | Empresa DINDIN
 
-Desafio de finalização do programa pra elas do Gama Academy em parceria com o Banco BV. 
+Desafio de finalização do programa pra elas do Gama Academy em parceria com o Banco BV desenvolvido por [Julia Cerqueira] (https://www.linkedin.com/in/julia-cerqueira-140777aa/)
 
 
 ### Layout
